@@ -1,0 +1,5 @@
+# https://zsh.sourceforge.io/Doc/Release/Options.html
+unsetopt AUTO_MENU
+setopt NOLIST_AMBIGUOUS
+setopt AUTO_LIST
+setopt NOLIST_BEEP

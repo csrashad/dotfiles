@@ -6,7 +6,7 @@ On my personal linux bash based shell, I did alot of setup to enjoy the terminal
 
 Why does the mac terminal feel so bad to me right now? What am I missing?
 
-1. A nice pwd (where am I? time of last command. git information).
+1. A nice ps1 (where am I? time of last command. git information).
 2. Nice completions in the terminal
 3. Good fuzzy find for completing commands
 4. `ls` shoud look nice

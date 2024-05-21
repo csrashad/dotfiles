@@ -1,0 +1,17 @@
+set clipboard=unnamed
+
+set autoindent
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+set number
+
+" allow for multilevel bullets
+autocmd FileType text,markdown setlocal breakindent linebreak showbreak=\ \ 
+
+"" search igoring case
+set ignorecase
+"" search case sensitive if a letter is capital
+set smartcase

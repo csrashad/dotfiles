@@ -1,0 +1,17 @@
+mcdir ()
+{
+    mkdir -p -- "$1" &&
+       cd -P -- "$1"
+}
+
+alias lv="vim -c':e#<1'"
+
+alias la="ls -ar"
+alias ll="ls -lar"
+
+alias gf='git fetch'
+alias gs='git status'
+alias gd='git diff'
+alias gf='git fetch'
+alias ga='git add'
+alias gcm='git commit -m'

@@ -1,0 +1,15 @@
+robust_source() {
+  if [[ -f "$1" ]]; then
+    echo "source $1"
+    source "$1"
+  else
+    echo "Could not find file to source:"
+    echo "$1"
+  fi
+}
+
+files=(~/GitHub/dotfiles/SourceThese/*)
+
+for file in $files;  do
+  robust_source "$file"
+done
